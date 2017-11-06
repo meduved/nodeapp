@@ -1,6 +1,32 @@
-<h4>Wau</h4>
-<table>
-    <tr>101</tr>
-    <tr>201</tr>
-    <tr>203</tr>
-</table>
+<!doctype html>
+<html lang="en" ng-app="myApp">
+
+<head>
+  <meta charset="utf-8">
+  <title>My AngularJS App</title>
+
+  <link rel="stylesheet" href="css/app.css" />
+
+  <script src="lib/angular/angular.js"></script>
+
+</head>
+
+<body>
+
+  <!--<ul class="menu">
+    <li><a href="#/view1">view1</a></li>
+    <li><a href="#/view2">view2</a></li>
+    <li><a href="#/view3">view3</a></li>
+  </ul>
+-->
+  <div ng-view></div>
+
+
+  <script src="js/routes.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+</body>
+
+</html>
