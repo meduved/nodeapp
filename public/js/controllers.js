@@ -30,7 +30,7 @@ myApp.controller("partial3CTRL", function ($scope, $http) {
     });
 }
  
-$scope.init()
+//$scope.init()
 
 });
 
